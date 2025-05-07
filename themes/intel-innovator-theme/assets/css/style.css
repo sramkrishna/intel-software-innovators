@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  color: #f2245;
+  background: #ffff;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #0071C5;
+  color: white;
+  padding: 2rem;
+}
+.hero img {
+  height: 120px;
+  margin-right: 2rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* Section Header Styles */
+.section-header {
+  background-color: #0071C5;
+  color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.section-header p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+  color: #cce1f2;
+}
+

@@ -1,0 +1,34 @@
+baseURL = "http://localhost:1313/"
+title = "Developer Community Hub"
+theme = "intel-innovator-theme"
+
+[params]
+  heroTitle = "Welcome to the Intel Software Innovator Program"
+  heroSubtitle = "Celebrating innovation, collaboration, and Ecosystem impact"
+  heroImage = "/images/Intel.png"
+  brandColor = "#0071C5"
+  neutralBackground = "#f4f4f4"
+
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 1
+
+[[menu.main]]
+  name = "Innovators"
+  url = "/innovators/"
+  weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+
+[[menu.main]]
+  name = "Forum"
+  url = "https://github.com/sramkrishna/intel-software-innovators/discussions/"
+
+[[menu.main]]
+  name = "Discord"
+  url = "https://github.com/sramkrishna/intel-software-innovators/discussions/"
+

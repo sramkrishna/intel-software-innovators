@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="section-header">
+    <h1>Our Innovators</h1>
+    <p>Meet the innovators pushing the boundaries of open source.</p>
+</div>
+<div class="cards">
+    {{ range .Pages }}
+        <div class="card">
+            <img src="{{ .Params.image }}" alt="{{ .Title }}">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Params.bio }}</p>
+            <a href="{{ .Params.github }}" target="_blank">View GitHub</a>
+        </div>
+    {{ end }}
+</div>
+{{ end }}

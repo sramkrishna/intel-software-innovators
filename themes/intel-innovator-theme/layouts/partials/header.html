@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar">
+        <nav>
+            <ul class="nav-list">
+                {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" target="{{ if strings.HasPrefix .URL "http" }}_blank{{ end }}">
+                            {{ if (strings.Contains .URL "discussions") }}
+                                <img src="/images/icons/message-circle.svg" alt="Forum" class="icon">
+                            {{ else if (strings.Contains .URL "discord") }}
+                                <img src="/images/icons/discord.svg" alt="Discord" class="icon">
+                            {{ end }}
+                            {{ .Name }}
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>

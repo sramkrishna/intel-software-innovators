@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="section-header">
+    <h1>Upcoming Events</h1>
+    <p>Join us at these exciting community gatherings!</p>
+</div>
+<div class="cards">
+    {{ range .Pages }}
+        <div class="card">
+            <h2>{{ .Title }}</h2>
+            <p><strong>{{ .Date.Format "January 2, 2006" }}</strong> — {{ .Params.location }}</p>
+            <p>{{ .Params.description }}</p>
+        </div>
+    {{ end }}
+</div>
+{{ end }}

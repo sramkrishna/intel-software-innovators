@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="section-header">
+    <h1>Projects</h1>
+    <p>Explore the open source projects making an impact.</p>
+</div>
+<div class="cards">
+    {{ range .Pages }}
+        <div class="card">
+            <h2>{{ .Title }}</h2>
+            {{ with .Summary }}
+                <p>{{ . }}</p>
+            {{ else }}
+                <p>No summary available for this project.</p>
+            {{ end }}
+            <a href="{{ .Params.external_url }}" target="_blank">View Project</a>
+        </div>
+    {{ end }}
+</div>
+{{ end }}

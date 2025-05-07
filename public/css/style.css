@@ -1,0 +1,218 @@
+
+/* Global Styles */
+body {
+  background-color: #f4f4f4 !important; /* Soft gray */
+  color: #333;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Content Area */
+#content {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+/* Ensure the site covers the full viewport */
+body.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Ensure the content area expands */
+#content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4; /* Neutral Light Background */
+  color: #222;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Logo Styles */
+.hero-logo img {
+  max-width: 250px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Text Styles */
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #005a99; /* Intel Dark Blue */
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0;
+  color: #444;
+}
+
+/* Card Styles */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Card Styles */
+
+.cards {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+  background-color: #f4f4f4; /* Light gray for better contrast */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: #ddd;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #005a99;
+}
+
+.card p {
+  color: #444;
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.card a {
+  background-color: #005a99;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+
+.card a:hover {
+  background-color: #003f73;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #0071C5;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Make sure the links have good contrast */
+.navbar nav .nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.navbar nav .nav-list li {
+  margin: 0;
+}
+
+/* General Link Styles */
+.navbar nav .nav-list li a {
+  color: #ffffff !important; /* Force white text */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Forum Link */
+.navbar nav .nav-list li a[href*="discussions"] {
+  background-color: #ffaa00;
+  color: #222 !important;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.navbar nav .nav-list li a[href*="discussions"]:hover {
+  background-color: #cc8800;
+  color: #fff;
+}
+
+/* Discord Link */
+.navbar nav .nav-list li a[href*="discord"] {
+  background-color: #444;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.navbar nav .nav-list li a[href*="discord"]:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Icon Styles */
+.navbar nav .nav-list li a img.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
