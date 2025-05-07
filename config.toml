@@ -5,7 +5,7 @@ theme = "intel-innovator-theme"
 [params]
   heroTitle = "Welcome to the Intel Software Innovator Program"
   heroSubtitle = "Celebrating innovation, collaboration, and Ecosystem impact"
-  heroImage = "/images/Intel.png"
+  heroImage = "images/Intel.png"
   brandColor = "#0071C5"
   neutralBackground = "#f4f4f4"
 
@@ -30,5 +30,4 @@ theme = "intel-innovator-theme"
 
 [[menu.main]]
   name = "Discord"
-  url = "https://github.com/sramkrishna/intel-software-innovators/discussions/"
-
+  url = "https://discord.gg/your-server-id"
