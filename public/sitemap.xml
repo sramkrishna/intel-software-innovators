@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/events/ai-developer-meetup/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/events/ai-developer-meetup/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/events/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/open-source-summit-2024/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/events/open-source-summit-2024/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/cloud-optmization/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/projects/cloud-optmization/</loc>
   </url><url>
-    <loc>http://localhost:1313/innovators/emily-davis/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/innovators/emily-davis/</loc>
   </url><url>
-    <loc>http://localhost:1313/innovators/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/innovators/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/machine-learning-toolkit/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/projects/machine-learning-toolkit/</loc>
   </url><url>
-    <loc>http://localhost:1313/innovators/michael-lee/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/innovators/michael-lee/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/innovators/sarah-connor/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/innovators/sarah-connor/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/intel-software-innovators/tags/</loc>
   </url>
 </urlset>

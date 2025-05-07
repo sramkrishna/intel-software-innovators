@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developer Community Hub</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/intel-software-innovators/</link>
     <description>Recent content on Developer Community Hub</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 05 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/intel-software-innovators/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Developer Meetup</title>
-      <link>http://localhost:1313/events/ai-developer-meetup/</link>
+      <link>http://localhost:1313/intel-software-innovators/events/ai-developer-meetup/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/ai-developer-meetup/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/events/ai-developer-meetup/</guid>
       <description>&lt;p&gt;Connect with AI experts and developers working on cutting-edge machine learning projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Open Source Summit 2024</title>
-      <link>http://localhost:1313/events/open-source-summit-2024/</link>
+      <link>http://localhost:1313/intel-software-innovators/events/open-source-summit-2024/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/open-source-summit-2024/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/events/open-source-summit-2024/</guid>
       <description>&lt;p&gt;Join us for the Open Source Summit 2024, a gathering of industry leaders, developers, and open source enthusiasts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Optimization Tools</title>
-      <link>http://localhost:1313/projects/cloud-optmization/</link>
+      <link>http://localhost:1313/intel-software-innovators/projects/cloud-optmization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cloud-optmization/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/projects/cloud-optmization/</guid>
       <description>Tools for optimizing cloud infrastructure and reducing costs.</description>
     </item>
     <item>
       <title>Emily Davis</title>
-      <link>http://localhost:1313/innovators/emily-davis/</link>
+      <link>http://localhost:1313/intel-software-innovators/innovators/emily-davis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/innovators/emily-davis/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/innovators/emily-davis/</guid>
       <description>&lt;p&gt;Emily is a frontend engineer at TechWave, where she focuses on creating intuitive and accessible web experiences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Machine Learning Toolkit</title>
-      <link>http://localhost:1313/projects/machine-learning-toolkit/</link>
+      <link>http://localhost:1313/intel-software-innovators/projects/machine-learning-toolkit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/machine-learning-toolkit/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/projects/machine-learning-toolkit/</guid>
       <description>A comprehensive set of tools for training, deploying, and scaling machine learning models.</description>
     </item>
     <item>
       <title>Michael Lee</title>
-      <link>http://localhost:1313/innovators/michael-lee/</link>
+      <link>http://localhost:1313/intel-software-innovators/innovators/michael-lee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/innovators/michael-lee/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/innovators/michael-lee/</guid>
       <description>&lt;p&gt;Michael is a prolific open source contributor, known for his work on decentralized networking and privacy-focused projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sarah Johnson</title>
-      <link>http://localhost:1313/innovators/sarah-connor/</link>
+      <link>http://localhost:1313/intel-software-innovators/innovators/sarah-connor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/innovators/sarah-connor/</guid>
+      <guid>http://localhost:1313/intel-software-innovators/innovators/sarah-connor/</guid>
       <description>&lt;p&gt;Sarah is a senior cloud engineer at Acme Inc. with over 10 years of experience in distributed systems and cloud architecture.&lt;/p&gt;</description>
     </item>
   </channel>
